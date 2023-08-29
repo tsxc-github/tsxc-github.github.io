@@ -1,5 +1,5 @@
-https://tsxc-github.github.io/AFO/
 https://tsxc-github.github.io/%E7%AE%80%E4%BB%8B/
+https://tsxc-github.github.io/AFO/
 https://tsxc-github.github.io/somepage/about/index.html
 https://tsxc-github.github.io/somepage/link/index.html
 https://tsxc-github.github.io/somepage/chat/index.html
