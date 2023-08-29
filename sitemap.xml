@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://tsxc-github.github.io/AFO/</loc>
+    
+    <lastmod>2023-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsxc-github.github.io/%E7%AE%80%E4%BB%8B/</loc>
+    
+    <lastmod>2023-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsxc-github.github.io/somepage/chat/index.html</loc>
+    
+    <lastmod>2023-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsxc-github.github.io/categories/index.html</loc>
+    
+    <lastmod>2023-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsxc-github.github.io/tags/index.html</loc>
+    
+    <lastmod>2023-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsxc-github.github.io/somepage/mood/index.html</loc>
+    
+    <lastmod>2023-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsxc-github.github.io/somepage/achives/index.html</loc>
+    
+    <lastmod>2023-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsxc-github.github.io/somepage/about/index.html</loc>
+    
+    <lastmod>2023-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsxc-github.github.io/somepage/link/index.html</loc>
+    
+    <lastmod>2023-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsxc-github.github.io/somepage/settings/index.html</loc>
+    
+    <lastmod>2023-08-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://tsxc-github.github.io/</loc>
+    <lastmod>2023-08-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+
+  
+</urlset>
