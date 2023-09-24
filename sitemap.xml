@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tsxc-github.github.io/somepage/about/index.html</loc>
+    
+    <lastmod>2023-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tsxc-github.github.io/AFO/</loc>
     
     <lastmod>2023-09-24</lastmod>
@@ -29,15 +38,6 @@
   </url>
   
   <url>
-    <loc>https://tsxc-github.github.io/%E7%AE%80%E4%BB%8B/</loc>
-    
-    <lastmod>2023-09-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tsxc-github.github.io/somepage/link/index.html</loc>
     
     <lastmod>2023-08-29</lastmod>
@@ -48,15 +48,6 @@
   
   <url>
     <loc>https://tsxc-github.github.io/%E6%84%9F%E6%82%9F/</loc>
-    
-    <lastmod>2023-08-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsxc-github.github.io/somepage/about/index.html</loc>
     
     <lastmod>2023-08-29</lastmod>
     
