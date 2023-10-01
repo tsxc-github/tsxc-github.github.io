@@ -157,8 +157,8 @@
         tsxc
        
     </span>
-    <span><i class="fa fa-clock-o"></i> 2023-09-24, 08:55:50</span>
-    <span><i class="fa fa-font"></i> 169</span>
+    <span><i class="fa fa-clock-o"></i> 2023-10-01, 11:18:04</span>
+    <span><i class="fa fa-font"></i> 913</span>
     
       <span><i class="fa fa-thumb-tack"></i> 置顶</span>
     
@@ -192,6 +192,117 @@
 <p>左下角可以听音乐，右边工具栏可以看到最新文章和随机文章，还有动态的文章目录，左边菜单的标签和分类功能还未使用。</p>
 <p>建议使用左下角的RSS订阅来及时获取我的文章的更新（当然较大的更新我会发犇犇的awa）</p>
 <p>还没来得及更改必要的图片、背景，会尽快做的。</p>
+<p>下面是博客的一些语法（留给自己的笔记）</p>
+<h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><h2 id="音乐"><a href="#音乐" class="headerlink" title="音乐"></a>音乐</h2><h3 id="Aplayer"><a href="#Aplayer" class="headerlink" title="Aplayer"></a>Aplayer</h3><p>需要安装hexo-tag-aplayer</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//简单用法</span></span><br><span class="line">&#123;% aplayer <span class="string">&quot;Caffeine&quot;</span> <span class="string">&quot;Jeff Williams&quot;</span> <span class="string">&quot;caffeine.mp3&quot;</span> <span class="string">&quot;picture.jpg&quot;</span> <span class="string">&quot;lrc:caffeine.txt&quot;</span> %&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//直接插入lrc歌词</span></span><br><span class="line">&#123;% aplayerlrc <span class="string">&quot;title&quot;</span> <span class="string">&quot;author&quot;</span> <span class="string">&quot;url&quot;</span> <span class="string">&quot;autoplay&quot;</span> %&#125;</span><br><span class="line">[<span class="number">00</span>:<span class="number">00</span><span class="number">.00</span>]lrc here</span><br><span class="line">&#123;% endaplayerlrc %&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//完整用法</span></span><br><span class="line">&#123;% aplayerlist %&#125;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="string">&quot;narrow&quot;</span>: <span class="literal">false</span>,                          <span class="comment">// （可选）播放器袖珍风格</span></span><br><span class="line">    <span class="string">&quot;autoplay&quot;</span>: <span class="literal">true</span>,                         <span class="comment">// （可选) 自动播放，移动端浏览器暂时不支持此功能</span></span><br><span class="line">    <span class="string">&quot;mode&quot;</span>: <span class="string">&quot;random&quot;</span>,                         <span class="comment">// （可选）曲目循环类型，有 &#x27;random&#x27;（随机播放）, &#x27;single&#x27; (单曲播放), &#x27;circulation&#x27; (循环播放), &#x27;order&#x27; (列表播放)， 默认：&#x27;circulation&#x27; </span></span><br><span class="line">    <span class="string">&quot;showlrc&quot;</span>: <span class="number">3</span>,                             <span class="comment">// （可选）歌词显示配置项，可选项有：1,2,3</span></span><br><span class="line">    <span class="string">&quot;mutex&quot;</span>: <span class="literal">true</span>,                            <span class="comment">// （可选）该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停</span></span><br><span class="line">    <span class="string">&quot;theme&quot;</span>: <span class="string">&quot;#e6d0b2&quot;</span>,	                      <span class="comment">// （可选）播放器风格色彩设置，默认：#b7daff</span></span><br><span class="line">    <span class="string">&quot;preload&quot;</span>: <span class="string">&quot;metadata&quot;</span>,                    <span class="comment">// （可选）音乐文件预载入模式，可选项： &#x27;none&#x27; &#x27;metadata&#x27; &#x27;auto&#x27;, 默认: &#x27;auto&#x27;</span></span><br><span class="line">    <span class="string">&quot;listmaxheight&quot;</span>: <span class="string">&quot;513px&quot;</span>,                 <span class="comment">// (可选) 该播放列表的最大长度</span></span><br><span class="line">    <span class="string">&quot;music&quot;</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">&quot;title&quot;</span>: <span class="string">&quot;CoCo&quot;</span>,</span><br><span class="line">            <span class="string">&quot;author&quot;</span>: <span class="string">&quot;Jeff Williams&quot;</span>,</span><br><span class="line">            <span class="string">&quot;url&quot;</span>: <span class="string">&quot;caffeine.mp3&quot;</span>,</span><br><span class="line">            <span class="string">&quot;pic&quot;</span>: <span class="string">&quot;caffeine.jpeg&quot;</span>,</span><br><span class="line">            <span class="string">&quot;lrc&quot;</span>: <span class="string">&quot;caffeine.txt&quot;</span></span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="string">&quot;title&quot;</span>: <span class="string">&quot;アイロニ&quot;</span>,</span><br><span class="line">            <span class="string">&quot;author&quot;</span>: <span class="string">&quot;鹿乃&quot;</span>,</span><br><span class="line">            <span class="string">&quot;url&quot;</span>: <span class="string">&quot;irony.mp3&quot;</span>,</span><br><span class="line">            <span class="string">&quot;pic&quot;</span>: <span class="string">&quot;irony.jpg&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br><span class="line">&#123;% endaplayerlist %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="MeingJS"><a href="#MeingJS" class="headerlink" title="MeingJS"></a>MeingJS</h3><p>MetingJS 是基于Meting API 的 APlayer 衍生播放器，引入 MetingJS 后，播放器将支持对于 QQ音乐、网易云音乐、虾米、酷狗、百度等平台的音乐播放。</p>
+<p>如果想在本插件中使用 MetingJS，请在 Hexo 配置文件 <code>_config.yml</code> 中设置：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">aplayer:</span></span><br><span class="line">  <span class="attr">meting:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 简单示例 (id, server, type)  --&gt;</span></span><br><span class="line">&#123;% meting &quot;60198&quot; &quot;netease&quot; &quot;playlist&quot; %&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 进阶示例 --&gt;</span></span><br><span class="line">&#123;% meting &quot;60198&quot; &quot;netease&quot; &quot;playlist&quot; &quot;autoplay&quot; &quot;mutex:false&quot; &quot;listmaxheight:340px&quot; &quot;preload:none&quot; %&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>经过测试，theme选项似乎无效</p>
+<table>
+<thead>
+<tr>
+<th align="left">参数</th>
+<th align="center">默认值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">id</td>
+<td align="center"></td>
+<td>歌曲ID &#x2F; 歌单ID &#x2F; 专辑ID &#x2F; 搜索关键词</td>
+</tr>
+<tr>
+<td align="left">server</td>
+<td align="center"></td>
+<td>platform: <code>netease</code>, <code>tencent</code>, <code>kugou</code>, <code>xiami</code>, <code>baidu</code> 音乐平台: <code>网易云</code>, <code>QQ音乐</code>, <code>酷狗</code>, <code>虾米</code>, <code>百度</code></td>
+</tr>
+<tr>
+<td align="left">type</td>
+<td align="center"></td>
+<td>ID类型：<code>song</code>, <code>playlist</code>, <code>album</code>, <code>search</code>, <code>artist</code></td>
+</tr>
+<tr>
+<td align="left">auto</td>
+<td align="center">可选</td>
+<td>music link, support: <code>netease</code>, <code>tencent</code>, <code>xiami</code></td>
+</tr>
+<tr>
+<td align="left">fixed</td>
+<td align="center"><code>false</code></td>
+<td>开启固定模式，固定在左下角</td>
+</tr>
+<tr>
+<td align="left">mini</td>
+<td align="center"><code>false</code></td>
+<td>打开迷你模式</td>
+</tr>
+<tr>
+<td align="left">autoplay</td>
+<td align="center"><code>false</code></td>
+<td>自动播放</td>
+</tr>
+<tr>
+<td align="left">theme</td>
+<td align="center"><code>#2980b9</code></td>
+<td>主色调（似乎无效）</td>
+</tr>
+<tr>
+<td align="left">loop</td>
+<td align="center"><code>all</code></td>
+<td>列表循环模式：’all’, ‘one’, ‘none’</td>
+</tr>
+<tr>
+<td align="left">order</td>
+<td align="center"><code>list</code></td>
+<td>列表播放模式：’list’, ‘random’</td>
+</tr>
+<tr>
+<td align="left">preload</td>
+<td align="center"><code>auto</code></td>
+<td>音乐文件预载入模式: ‘none’, ‘metadata’, ‘auto’</td>
+</tr>
+<tr>
+<td align="left">volume</td>
+<td align="center"><code>0.7</code></td>
+<td>默认音量, notice that player will remember user setting, default volume will not work after user set volume themselves</td>
+</tr>
+<tr>
+<td align="left">mutex</td>
+<td align="center"><code>true</code></td>
+<td>该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停</td>
+</tr>
+<tr>
+<td align="left">lrc-type</td>
+<td align="center"><code>0</code></td>
+<td>lyric type</td>
+</tr>
+<tr>
+<td align="left">list-folded</td>
+<td align="center"><code>false</code></td>
+<td>indicate whether list should folded at first</td>
+</tr>
+<tr>
+<td align="left">list-max-height</td>
+<td align="center"><code>340px</code></td>
+<td>播放列表的最大长度</td>
+</tr>
+<tr>
+<td align="left">storage-name</td>
+<td align="center"><code>metingjs</code></td>
+<td>localStorage key that store player setting</td>
+</tr>
+</tbody></table>
 
   
 
@@ -288,7 +399,7 @@
         文章数目</div><div class="badge">4</div>
       </div>
       <div class="list-group-item"><div><i class="fa fa-refresh fa-fw"></i>
-        最近更新</div><div class="badge">09-24</div>
+        最近更新</div><div class="badge">10-01</div>
       </div>
       <div class="list-group-item"><div><i class="fa fa-font fa-fw"></i>
         本站字数</div><div class="badge">11k</span></div>
@@ -296,6 +407,19 @@
     </div>
   </div>
 
+  <!-- 标签可能太多，影响目录 -->
+    <div class="post-toc">
+      <div class="title">文章目录</div>
+      <div class="post-toc-inner"></div>
+    </div>
+    <script>
+      tocbot.init({
+        tocSelector: '.post-toc-inner',
+        contentSelector: '.post-text',
+        headingSelector: 'h1, h2, h3, h4, h5, h6',
+        hasInnerContainers: true,
+      });
+    </script>
    
 
   <script>
