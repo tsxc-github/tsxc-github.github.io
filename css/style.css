@@ -1306,7 +1306,7 @@ meting-js * {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1650px) {
   .footer {
     margin-left: 220px;
     display: block;
@@ -1824,7 +1824,7 @@ meting-js * {
   width: 220px;
   height: 100%;
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1650px) {
   .sidebar,
   .fake-sidebar {
     width: 220px;
@@ -1863,7 +1863,7 @@ meting-js * {
 .toolbar {
   border-left: 1px solid var(--toolbar-border-color);
   background: var(--toolbar-bg-color);
-  width: 240px;
+  width: 220px;
   height: 100%;
   box-sizing: border-box;
   z-index: 200;
@@ -1989,9 +1989,9 @@ meting-js * {
   padding-left: 8px !important;
   padding-right: 8px !important;
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1650px) {
   .toolbar {
-    width: 240px !important;
+    width: 220px !important;
   }
 }
 @media screen and (max-width: 990px) {
@@ -2049,7 +2049,7 @@ body {
   margin: 0 auto;
   box-shadow: 0 0 40px var(--body-shadow-color);
   height: auto;
-  width: 1170px;
+  width: 1650px;
   line-height: 140%;
   letter-spacing: 1.3px;
 }
@@ -2058,7 +2058,7 @@ body {
   color: var(--selection-color);
 }
 .article {
-  width: 1170px;
+  width: 1650px;
   min-height: 800px;
   table-layout: fixed;
   display: table;
@@ -2080,7 +2080,7 @@ body {
 .katex-block {
   overflow-x: auto;
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1650px) {
   .article {
     width: 990px;
   }
