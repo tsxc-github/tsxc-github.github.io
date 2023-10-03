@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tsxc-github.github.io/NOILinux%E7%9A%84%E9%A3%9F%E7%94%A8%E6%96%B9%E6%B3%95-%E5%9F%BA%E7%A1%80%E7%AF%87/</loc>
+    
+    <lastmod>2023-10-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tsxc-github.github.io/somepage/about/index.html</loc>
     
     <lastmod>2023-10-01</lastmod>
@@ -121,7 +130,7 @@
 
   <url>
     <loc>https://tsxc-github.github.io/</loc>
-    <lastmod>2023-10-01</lastmod>
+    <lastmod>2023-10-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
