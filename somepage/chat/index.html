@@ -189,16 +189,17 @@
 
 <div class="comments">
   
-    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
     <div id="waline"></div>
-    <script type="module">
-      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
-      init({
-        el: '#waline',
-        serverURL: 'http://4-6.tpddns.cn:8360',
-      });
-    </script>
-
+      <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+      <!-- Meta 图标 (可选) -->
+      <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline-meta.css"/>
+      <script type="module">
+        import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+        init({
+          el: '#waline',
+          serverURL: 'http://4-6.tpddns.cn:8360',
+        });
+      </script>
   
 
 </div>
