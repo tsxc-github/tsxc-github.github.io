@@ -158,6 +158,22 @@
     <span><i class="fa fa-clock-o"></i> 2023-08-29, 17:26:39</span>
     <span><i class="fa fa-font"></i> 12</span>
     
+      <script type="module">
+        import { pageviewCount } from 'https://unpkg.com/@waline/client/dist/pageview.mjs';
+      
+        pageviewCount({
+          serverURL: 'http://tsxc-home.dns.army:8360',
+          path: window.location.pathname,
+      
+          // 可选的，用于自定选择器，默认为 `'.waline-pageview-count'`
+          // selector: 'waline-pageview-count',
+      
+          // 可选的，是否在获取时增加访问量，默认为 `true`
+          // update: true,
+        });
+      </script>
+      <span><i class="fa fa-eye"></i><span i class="waline-pageview-count"/></span>
+    
     <span class="hideBars" onclick="hideBars()"><i class="fa fa-eye-slash"></i>
       隐藏左右两栏
     </span>
@@ -209,6 +225,15 @@
           serverURL: 'http://tsxc-home.dns.army:8360',
         });
       </script>
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+      init({
+        el: '#waline',
+        serverURL: 'http://tsxc-home.dns.army:8360',
+        reaction: true ,
+      });
+    </script>
+
   
 
 </div>
@@ -268,7 +293,7 @@
         最近更新</div><div class="badge">08-29</div>
       </div>
       <div class="list-group-item"><div><i class="fa fa-font fa-fw"></i>
-        本站字数</div><div class="badge">14.3k</span></div>
+        本站字数</div><div class="badge">14.4k</span></div>
       </div>
     </div>
   </div>
