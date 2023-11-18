@@ -6,7 +6,7 @@
   <link href="https://tsxc-github.github.io/atom.xml" rel="self"/>
   
   <link href="https://tsxc-github.github.io/"/>
-  <updated>2023-11-17T10:00:12.338Z</updated>
+  <updated>2023-11-18T04:58:29.098Z</updated>
   <id>https://tsxc-github.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在博客搭建中学习</title>
+    <link href="https://tsxc-github.github.io/%E5%9C%A8%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%AD%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://tsxc-github.github.io/%E5%9C%A8%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%AD%E5%AD%A6%E4%B9%A0/</id>
+    <published>2023-11-18T02:37:00.000Z</published>
+    <updated>2023-11-18T04:58:29.098Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>应@<a href="https://www.luogu.com.cn/user/441247">Halberd_Cease</a>的要求，我写这篇文章来帮助入门hexo及Github。</p><span id="more"></span><h1 id="github食用"><a class="markdownIt-Anchor" href="#github食用"></a> Github食用</h1><h2 id="fork使用"><a class="markdownIt-Anchor" href="#fork使用"></a> fork使用</h2><p>Github的fork功能不仅仅是复制一个仓库，可以通过Github的fork功能来对自己的博客进行方便的更新和维护。</p><p>我们先对自己喜欢的主题进行fork（<s>比如我在贡献的主题<a href="https://github.com/tsxc-github/tsxc-fork-Cutie">tsxc-github/tsxc-fork-Cutie</a></s>）</p><p>这里以Cutie主题为例</p><details class="folding-tag"><summary> Cutie主题介绍 </summary>              <div class="content">              <p>转载自<a href="https://yz-hs.github.io/39e4c172e542/">Cutie 使用文档 | Yurchiu’s Blog (yz-hs.github.io)</a></p><p><img src="/%E5%9C%A8%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%AD%E5%AD%A6%E4%B9%A0/intro4-1700278597433-1.png" alt="intro4-1700278597433-1"></p><p>Cutie 是一个 Hexo 主题。此主题由 <a href="https://github.com/yz-hs/">Yurchiu</a> 制作，外观借鉴了 <a href="https://www.ihewro.com/archives/489/">handsome</a> 主题，部分代码借鉴自 <a href="https://mkblog.cn/">mkBlog</a>。本主题可在 <a href="https://github.com/yz-hs/Cutie">Github</a> 获取。</p><p>建议使用我的fork仓库，更新更快<a href="https://github.com/tsxc-github/tsxc-fork-Cutie">tsxc-github/tsxc-fork-Cutie</a>。</p>              </div>            </details><p>fork完成后，我们在hexo的目录里找到theme，clone一下你fork的仓库。</p><p>随后我们按照教程一步一步配置，配置完了用Git你把刚刚配置的东西 add，commit，并push到Github上。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;应@&lt;a href=&quot;https://www.luogu.com.cn/user/441247&quot;&gt;Halberd_Cease&lt;/a&gt;的要求，我写这篇文章来帮助入门hexo及Github。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>福岛第一核电站事故</title>

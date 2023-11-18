@@ -775,7 +775,7 @@ tag:nth-child(4n-2) {
   background: #89d04f;
 }
 .folding-tag .content {
-  color: var(--table-text-color) !important;
+  color: var(--text-color) !important;
 }
 @-moz-keyframes YurSpin {
   0%, 15% {
@@ -955,6 +955,14 @@ details >summary {
   border-style: none;
   cursor: pointer;
   color: var(--text-color);
+}
+details.folding-tag >summary {
+  background: var(--summary-color) !important;
+  color: var(--text-color) !important;
+}
+details.folding-tag {
+  background: var(--summary-hover-color) !important;
+  color: var(--text-color) !important;
 }
 u,
 emp,
