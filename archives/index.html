@@ -423,6 +423,7 @@
     if(readData("color")==4 || "night"=="night"&&!readData("color")){
         $("body").css("opacity","0.85");
         $("body").css("background-image","url(/img/night-bgp.jpg)");
+        $("html").addClass("color-night");
     }
 
     $('img').attr("onerror","this.src='/img/error.jpg';this.onerror=null");
