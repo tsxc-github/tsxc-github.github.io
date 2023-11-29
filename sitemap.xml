@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tsxc-github.github.io/posts/ce598a67/</loc>
+    
+    <lastmod>2023-11-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tsxc-github.github.io/posts/981abe42/</loc>
     
     <lastmod>2023-11-26</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>https://tsxc-github.github.io/posts/f5f36a95/</loc>
-    
-    <lastmod>2023-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsxc-github.github.io/posts/ce598a67/</loc>
     
     <lastmod>2023-11-25</lastmod>
     
@@ -166,7 +166,7 @@
 
   <url>
     <loc>https://tsxc-github.github.io/</loc>
-    <lastmod>2023-11-26</lastmod>
+    <lastmod>2023-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
