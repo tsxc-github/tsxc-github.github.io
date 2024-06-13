@@ -178,22 +178,6 @@
     <span><i class="fa fa-clock-o"></i> 2023-08-29, 17:26</span>
     <span><i class="fa fa-font"></i> 12</span>
     
-      <script type="module">
-        import { pageviewCount } from 'https://unpkg.com/@waline/client/dist/pageview.mjs';
-      
-        pageviewCount({
-          serverURL: 'http://tsxc-home.dns.army:8360',
-          path: window.location.pathname,
-      
-          // 可选的，用于自定选择器，默认为 `'.waline-pageview-count'`
-          // selector: 'waline-pageview-count',
-      
-          // 可选的，是否在获取时增加访问量，默认为 `true`
-          // update: true,
-        });
-      </script>
-      <span><i class="fa fa-eye"></i><span i class="waline-pageview-count"/></span>
-    
     <span class="hideBars" onclick="hideBars()"><i class="fa fa-eye-slash"></i>
       隐藏左右两栏
     </span>
@@ -210,7 +194,7 @@
     
   </div>
   <div class="share">
-    分享到 <a target="_blank" rel="noopener" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://tsxc-github.github.io/somepage/mood/index.html&title=&site=https://tsxc-github.github.io"><i class="fa fa-qq"></i></a>
+    分享到 <a target="_blank" rel="noopener" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://blog.tsxc.xyz/somepage/mood/index.html&title=&site=https://blog.tsxc.xyz"><i class="fa fa-qq"></i></a>
   </div>
 </div>
 
@@ -218,11 +202,15 @@
   <script>
   $(function(){$("info").prepend("<i class='fa fa-clock-o'></i> ");});
 </script>
+
 <ul class="mood-list">
+
 <li><img src="/somepage/mood/index/avatar.png"><text><inner>
 博客建站！
 <info>2023-08-29 17:26</info></inner></text></li>
+
 <!-- 不断重复  -->
+
 </ul>
   
 
