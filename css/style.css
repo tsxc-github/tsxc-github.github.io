@@ -500,7 +500,7 @@ invsb:hover {
 }
 small {
   color: var(--text-color);
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 500;
 }
 .timeline {
@@ -1265,7 +1265,7 @@ meting-js * {
   }
 }
 .tags {
-  font-size: 17px;
+  font-size: 20px;
 }
 .tags tag {
   display: inline-block;
@@ -1441,7 +1441,7 @@ meting-js * {
 .post {
   background: var(--post-bg-color);
   line-height: 170%;
-  font-size: 17px;
+  font-size: 21px;
 }
 .post,
 .post * {
@@ -1582,7 +1582,7 @@ meting-js * {
 .post .excerpt h4,
 .post .excerpt h5,
 .post .excerpt h6 {
-  font-size: 17px;
+  font-size: 21px;
   font-weight: bold;
   display: inline;
 }
@@ -1720,7 +1720,7 @@ meting-js * {
 }
 @media screen and (max-width: 770px) {
   .post {
-    font-size: 15px !important;
+    font-size: 19px !important;
   }
   .post .post-item,
   .post .post-bgimg-item,
@@ -1786,7 +1786,7 @@ meting-js * {
 }
 .sidebar .mini-text {
   color: var(--sidebar-text-mini-text-color);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
 }
 .sidebar .list-group-item,
@@ -1945,7 +1945,7 @@ meting-js * {
 }
 .toolbar .tab-page .sidetitle {
   color: var(--toolbar-tab-page-sidetitle-color);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
 }
 .toolbar .tab-page .fa-border {
@@ -2039,8 +2039,8 @@ meting-js * {
 body {
   opacity: 0.9;
   color: var(--text-color);
-  font-family: Montserrat,'Harmony_Regular',sans-serif;
-  font-size: 17px;
+  font-family: 'YourCustomFontName';
+  font-size: 22px;
   font-weight: 500 !important;
   background-attachment: fixed;
   background-repeat: no-repeat;
