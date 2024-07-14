@@ -17,5 +17,5 @@ https://blog.tsxc.xyz/tags/OI/
 https://blog.tsxc.xyz/tags/%E5%87%BA%E9%A2%98/
 https://blog.tsxc.xyz/tags/%E6%96%87%E5%AD%A6/
 https://blog.tsxc.xyz/categories/OI/
-https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/
 https://blog.tsxc.xyz/categories/OI/%E5%87%BA%E9%A2%98/
+https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/
