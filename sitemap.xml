@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.tsxc.xyz/somepage/link/index.html</loc>
+    <loc>https://blog.tsxc.xyz/posts/f77810a8/</loc>
     
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-07-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,34 @@
   <url>
     <loc>https://blog.tsxc.xyz/posts/981abe42/</loc>
     
-    <lastmod>2024-05-26</lastmod>
+    <lastmod>2024-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tsxc.xyz/somepage/mood/index.html</loc>
+    
+    <lastmod>2024-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tsxc.xyz/somepage/search/index.html</loc>
+    
+    <lastmod>2024-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tsxc.xyz/somepage/link/index.html</loc>
+    
+    <lastmod>2024-06-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -56,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://blog.tsxc.xyz/somepage/search/index.html</loc>
-    
-    <lastmod>2023-09-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.tsxc.xyz/somepage/chat/index.html</loc>
     
     <lastmod>2023-08-29</lastmod>
@@ -84,15 +102,6 @@
   
   <url>
     <loc>https://blog.tsxc.xyz/tags/index.html</loc>
-    
-    <lastmod>2023-08-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.tsxc.xyz/somepage/mood/index.html</loc>
     
     <lastmod>2023-08-29</lastmod>
     
@@ -165,14 +174,14 @@
   </url>
   
   <url>
-    <loc>https://blog.tsxc.xyz/categories/OI/%E5%87%BA%E9%A2%98/</loc>
+    <loc>https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/</loc>
     <lastmod>2024-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/</loc>
+    <loc>https://blog.tsxc.xyz/categories/OI/%E5%87%BA%E9%A2%98/</loc>
     <lastmod>2024-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
