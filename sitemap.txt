@@ -1,3 +1,4 @@
+https://blog.tsxc.xyz/posts/771e4e23/
 https://blog.tsxc.xyz/posts/f77810a8/
 https://blog.tsxc.xyz/posts/981abe42/
 https://blog.tsxc.xyz/somepage/mood/index.html
@@ -5,7 +6,6 @@ https://blog.tsxc.xyz/somepage/search/index.html
 https://blog.tsxc.xyz/somepage/link/index.html
 https://blog.tsxc.xyz/posts/5bcef9d8/
 https://blog.tsxc.xyz/posts/4c0440c/
-https://blog.tsxc.xyz/posts/771e4e23/
 https://blog.tsxc.xyz/somepage/about/index.html
 https://blog.tsxc.xyz/somepage/chat/index.html
 https://blog.tsxc.xyz/categories/index.html
