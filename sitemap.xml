@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.tsxc.xyz/posts/e7454413/</loc>
+    
+    <lastmod>2024-07-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.tsxc.xyz/somepage/link/index.html</loc>
     
     <lastmod>2024-07-24</lastmod>
@@ -192,14 +201,14 @@
   </url>
   
   <url>
-    <loc>https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/</loc>
+    <loc>https://blog.tsxc.xyz/categories/OI/%E5%87%BA%E9%A2%98/</loc>
     <lastmod>2024-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.tsxc.xyz/categories/OI/%E5%87%BA%E9%A2%98/</loc>
+    <loc>https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/</loc>
     <lastmod>2024-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
