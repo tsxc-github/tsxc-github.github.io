@@ -1,6 +1,5 @@
 https://blog.tsxc.xyz/posts/f77810a8/
 https://blog.tsxc.xyz/posts/771e4e23/
-https://blog.tsxc.xyz/posts/a4c1f4b3/
 https://blog.tsxc.xyz/posts/981abe42/
 https://blog.tsxc.xyz/link/
 https://blog.tsxc.xyz/posts/e7454413/
@@ -25,7 +24,6 @@ https://blog.tsxc.xyz/tags/%E5%87%BA%E9%A2%98/
 https://blog.tsxc.xyz/tags/%E6%8A%80%E6%9C%AF/
 https://blog.tsxc.xyz/tags/%E6%94%BF%E6%B2%BB/
 https://blog.tsxc.xyz/tags/%E6%96%87%E5%AD%A6/
-https://blog.tsxc.xyz/tags/C/
 https://blog.tsxc.xyz/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/
 https://blog.tsxc.xyz/categories/%E6%8A%80%E6%9C%AF/
 https://blog.tsxc.xyz/categories/%E6%8A%80%E6%9C%AF/C/
