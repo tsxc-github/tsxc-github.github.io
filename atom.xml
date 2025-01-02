@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>星澜曦光的探索</title>
+  <follow_challenge>
+    <feedId>97581275059096576</feedId>
+    <userId>46402765494215680</userId>
+  </follow_challenge>
   
   
   <link href="https://blog.tsxc.xyz/atom.xml" rel="self"/>
