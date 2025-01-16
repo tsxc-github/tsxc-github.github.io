@@ -1,0 +1,8 @@
+/*!
+ * chaffle v1.0.0
+ * 
+ * Licensed under MIT
+ * Copyright 2013-2014 blivesta
+ * http://blivesta.com
+ */
+!function(t){var n="chaffle",e={init:function(e){return e=t.extend({speed:20,time:140},e),this.each((function(){var a=this,r=t(this);r.data(n)||(e=t.extend({},e),r.data(n,{options:e}));var o,h,l,c=r.text(),d=function(){if(r.text(o),c.length-o.length>0)for(i=0;i<c.length-o.length;i++){var t=s.call();r.append(t)}else clearInterval(h)},u=function(){o.length<c.length?o=c.substr(0,o.length+1):clearInterval(l)},s=function(){var t;switch(r.data("lang")){case"en":t=String.fromCharCode(33+Math.round(99*Math.random()));break;case"zh":t=String.fromCharCode(19968+Math.round(80*Math.random()));break;case"ja-hiragana":t=String.fromCharCode(12352+Math.round(50*Math.random()));break;case"ja-katakana":t=String.fromCharCode(12448+Math.round(84*Math.random()))}return t},f=function(){o="",clearInterval(h),clearInterval(l),h=setInterval((function(){d.call(a)}),e.speed),l=setInterval((function(){u.call(this)}),e.time)};r.unbind("mouseover."+n).bind("mouseover."+n,(function(){f.call(a)}))}))},destroy:function(){return this.each((function(){var e=t(this);t(window).unbind("."+n),e.removeData(n)}))}};t.fn.chaffle=function(a){return e[a]?e[a].apply(this,Array.prototype.slice.call(arguments,1)):"object"!=typeof a&&a?void t.error("Method "+a+" does not exist on jQuery."+n):e.init.apply(this,arguments)}}(jQuery);
