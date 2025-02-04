@@ -27,8 +27,8 @@ https://blog.tsxc.xyz/tags/%E6%96%87%E5%AD%A6/
 https://blog.tsxc.xyz/tags/%E7%94%9F%E6%B4%BB/
 https://blog.tsxc.xyz/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/
 https://blog.tsxc.xyz/categories/%E6%8A%80%E6%9C%AF/
-https://blog.tsxc.xyz/categories/%E6%8A%80%E6%9C%AF/C/
 https://blog.tsxc.xyz/categories/OI/
+https://blog.tsxc.xyz/categories/%E6%8A%80%E6%9C%AF/C/
 https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/
 https://blog.tsxc.xyz/categories/OI/%E5%87%BA%E9%A2%98/
 https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/%E5%86%99%E4%BD%9C/
