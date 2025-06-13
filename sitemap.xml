@@ -282,13 +282,6 @@
   </url>
   
   <url>
-    <loc>https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/%E5%86%99%E4%BD%9C/</loc>
-    <lastmod>2025-06-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.tsxc.xyz/categories/%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2025-06-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -296,7 +289,7 @@
   </url>
   
   <url>
-    <loc>https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/%E5%86%99%E4%BD%9C/%E5%A2%93/</loc>
+    <loc>https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2025-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -304,6 +297,13 @@
   
   <url>
     <loc>https://blog.tsxc.xyz/categories/%E5%86%99%E4%BD%9C/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2025-06-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/%E5%86%99%E4%BD%9C/%E5%A2%93/</loc>
     <lastmod>2025-06-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
