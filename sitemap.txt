@@ -1,4 +1,4 @@
-https://blog.tsxc.xyz/posts/b80796a6/
+https://blog.tsxc.xyz/%E5%AE%A3%E4%BC%A0%E7%89%87%E8%84%9A%E6%9C%AC
 https://blog.tsxc.xyz/posts/930f060b/
 https://blog.tsxc.xyz/somepage/link/
 https://blog.tsxc.xyz/posts/e7454413/
@@ -32,7 +32,7 @@ https://blog.tsxc.xyz/categories/OI/
 https://blog.tsxc.xyz/categories/%E6%8A%80%E6%9C%AF/C/
 https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/
 https://blog.tsxc.xyz/categories/OI/%E5%87%BA%E9%A2%98/
-https://blog.tsxc.xyz/categories/%E5%86%99%E4%BD%9C/
 https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/%E5%86%99%E4%BD%9C/
-https://blog.tsxc.xyz/categories/%E5%86%99%E4%BD%9C/%E7%94%9F%E6%B4%BB/
+https://blog.tsxc.xyz/categories/%E5%86%99%E4%BD%9C/
 https://blog.tsxc.xyz/categories/%E6%96%87%E5%AD%A6/%E5%86%99%E4%BD%9C/%E5%A2%93/
+https://blog.tsxc.xyz/categories/%E5%86%99%E4%BD%9C/%E7%94%9F%E6%B4%BB/
